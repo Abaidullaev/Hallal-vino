@@ -1,0 +1,107 @@
+.div{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header{
+    background: rgb(185, 185, 185);
+    width: 100%;
+    position: sticky;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    
+}
+#Header_logo{
+    width: 10%;
+    height: 9%;
+    left: 15%;
+    top: 2.3%;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin-right: 5%;
+}
+.a1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    transition: .3s;
+    display: block;
+    border-bottom: 1px solid transparent;
+}
+.a1:hover {
+    border-bottom: 1px solid black;
+}
+
+.hom{
+    width: 100%;
+    height: 500px;
+}
+
+.img{
+    position: absolute;
+    width: 659px;
+    height: 459px;
+    left: 850px;
+    top: 170px;
+}
+
+.img2{
+    position: absolute;
+    left: 900px;
+    right: 21.04%;
+    top: 150px;
+    bottom: 83.85%;
+}
+
+.img3{
+    position: absolute;
+    width: 921px; 
+    height: 362px;
+    left: -190px;
+    top: 470px;
+}
+
+.hom-text{
+    width: 350px;
+    height: 500px;
+    margin: 150px 350px;
+    text-align: left;
+}
+
+.hom-text>h1{
+font-size: 40px;
+}
+
+.b{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 350px;
+    top: 500px;
+    bottom: 0%;
+    background: #FAC300;
+    color: #000000;
+    border-radius: 4px;
+    border: none;
+}
